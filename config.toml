@@ -1,0 +1,8 @@
+[params]
+    
+    avatar = "avatar.jpg"
+    # avatarDescription = "My avatar description"
+    favicon = "favicon.ico"
+    description = """
+        nothing but nonsense
+    """
