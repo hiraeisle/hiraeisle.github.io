@@ -1,7 +1,6 @@
 title: 島の細道
 description: nothing but nonsense
 uesrname: hiraeisle
-
 author: フミヨシ
 avatar: /static/img/IMG_1874.jpg
     
@@ -71,19 +70,3 @@ deploy:
 
   branch: master 
  
- 
- 
- 
-    # custom_js = ["/js/custom.js"]
-
-# Make sure setting a following option for search bar to work
-[outputs]
-    section = ["JSON", "HTML"]
-    taxonomy = ["JSON", "HTML"]
-
-[[menu.main]]
-    identifier = "email"
-    # name = "Email"
-    pre = "<i class='fa fa-envelope fa-lg'></i>"
-    url = "mailto:username@example.com"
-    weight = 40
