@@ -1,8 +1,29 @@
+[markup.goldmark.renderer]
+    unsafe = true # Allow user HTML tags
+
 [params]
-    
-    avatar = "IMG_1874.jpg"
+    author = "Your Name"
+    avatar = "avatar.jpg"
     # avatarDescription = "My avatar description"
     favicon = "favicon.ico"
     description = """
-        nothing but nonsense
+        Please write anything here.
+        Profiles, backgrounds, favorite things etc.
     """
+    publicationYear = "2019"
+    # listPageDateFormat = "January, 2006" # See https://gohugo.io/functions/format/
+    # singlePageDateFormat = "January 2, 2006"
+    # custom_css = ["/css/custom.css"]
+    # custom_js = ["/js/custom.js"]
+
+# Make sure setting a following option for search bar to work
+[outputs]
+    section = ["JSON", "HTML"]
+    taxonomy = ["JSON", "HTML"]
+
+[[menu.main]]
+    identifier = "email"
+    # name = "Email"
+    pre = "<i class='fa fa-envelope fa-lg'></i>"
+    url = "mailto:username@example.com"
+    weight = 40
