@@ -1,25 +1,16 @@
-title = "島の細道"
-
-canonifyurls = true
-hasCJKLanguage = true
-
+title: 島の細道
 
 
 [markup.goldmark.renderer]
     unsafe = true # Allow user HTML tags
 
 [params]
-    author = "フミヨシ"
-    avatar = "IMG_1874.jpg"
+    author: フミヨシ
+    avatar: IMG_1874.jpg
     # avatarDescription = "My avatar description"
-    favicon = "favicon.ico"
-    description = """
-        nothing but nonsense
-    """
-    publicationYear = "2019"
-    # listPageDateFormat = "January, 2006" # See https://gohugo.io/functions/format/
-    # singlePageDateFormat = "January 2, 2006"
-    # custom_css = ["/css/custom.css"]
+    favicon: favicon.ico
+    description: nothing but nonsense
+    
     # custom_js = ["/js/custom.js"]
 
 # Make sure setting a following option for search bar to work
