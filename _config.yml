@@ -1,15 +1,15 @@
 title: 島の細道
+description: nothing but nonsense
 uesrname: hiraeisle
 
 [markup.goldmark.renderer]
     unsafe = true # Allow user HTML tags
 
-[params]
-    author: フミヨシ
-    avatar: IMG_1874.jpg
+author: フミヨシ
+avatar: /static/img/IMG_1874.jpg
     # avatarDescription = "My avatar description"
-    favicon: favicon.ico
-    description: nothing but nonsense
+favicon: favicon.ico
+description: nothing but nonsense
     
     # custom_js = ["/js/custom.js"]
 
