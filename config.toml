@@ -1,3 +1,10 @@
+title = "島の細道"
+
+canonifyurls = true
+hasCJKLanguage = true
+
+
+
 [markup.goldmark.renderer]
     unsafe = true # Allow user HTML tags
 
